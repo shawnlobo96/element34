@@ -64,7 +64,7 @@ export const config: WebdriverIO.Config = {
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://saucelabs.com/platform/platform-configurator
     //
-    capabilities: JSON.parse(JSON.stringify(process.env.CAPABILITIES) || '[{"browserName": "chrome", "wdio:enforceWebDriverClassic": true}, {"browserName": "firefox","wdio:enforceWebDriverClassic": true}]'),
+    capabilities: JSON.parse(process.env.CAPABILITIES || '[{"browserName": "chrome", "wdio:enforceWebDriverClassic": true}, {"browserName": "firefox","wdio:enforceWebDriverClassic": true}]'),
     //
     // ===================
     // Test Configurations

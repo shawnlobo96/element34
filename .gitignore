@@ -1,0 +1,6 @@
+node_modules/
+allure-*
+__snapshots__/
+package-lock.json
+.tmp/
+_results_/

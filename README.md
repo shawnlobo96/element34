@@ -63,7 +63,11 @@ Note: replace `<selenium-hub-address>` with the IP/Hostname of the selenium serv
 
 #### CLI
 
+https://github.com/user-attachments/assets/aee5b3d6-a5ea-4f02-a415-0c20b9f500a7
+
 #### Docker
+
+https://github.com/user-attachments/assets/79130d8a-9d40-4695-882e-cf40daff99da
 
 #### Jenkins
 

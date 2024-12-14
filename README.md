@@ -27,7 +27,7 @@ A sample webdriver IO script that automates the website
 
 `HUB_HOST` - Hostname/IP of the Selenium hub. Default: `localhost`
 
-`CAPABILITIES` - JSON string of capabilities. Default: `null`
+`CAPABILITIES` - JSON string of capabilities.
 
 `MAX_INSTANCES` - number of workers. Default: `1`
 

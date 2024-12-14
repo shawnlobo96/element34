@@ -1,6 +1,5 @@
 properties(
-  [disableConcurrentBuilds(), 
-  parameters(
+  [parameters(
     [
         string(defaultValue: 'localhost', description: 'IP/Hostname of Selenium Server', name: 'HUB_HOST', trim: true), 
         string(defaultValue: '1', description: 'Number of workers to run the test to support parallel execution', name: 'MAX_INSTANCES', trim: true), 

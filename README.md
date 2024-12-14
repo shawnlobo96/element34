@@ -17,7 +17,7 @@ A sample webdriver IO script that automates the website
 #### WebdriverIO Script
 
 ```bash
-% git clone 
+% git clone https://github.com/shawnlobo96/element34.git
 % cd element34
 % npm i
 ```
@@ -55,7 +55,7 @@ Note: replace `<selenium-hub-address>` with the IP/Hostname of the selenium serv
 
 ---
 #### Jenkins
-- Create a new scripted pipeline from the pipeline.Jenkinsfile
+- Create a new scripted pipeline from `pipeline.Jenkinsfile`
 - Set the relevant configurations (optional)
 - Trigger the build
 
